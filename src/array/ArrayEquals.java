@@ -24,9 +24,9 @@ public class ArrayEquals {
 		int length = a.length;
 		for(int i = 0; i< length; i++)	{
 			if(a[i] != b[i])	{
-				return false;
 			}
 		}
+		return false;
 		
 	}
 }
