@@ -14,6 +14,8 @@ public class GoodsApp {
 		goods.setCountStock (50);
 		goods.setCountSold (30);
 		
+		System.out.println(Goods.count);
+		
 		System.out.println(goods.getName() + ":" + goods.getPrice() + ":" + goods.getCountStock() + ":" + goods.getCountSold());
 
 

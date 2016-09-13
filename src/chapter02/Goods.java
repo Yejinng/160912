@@ -1,6 +1,8 @@
 package chapter02;
 
 public class Goods {
+	public static int count;	//클래스변수
+	
 	private String name;
 	private int price;
 	private int countStock;
